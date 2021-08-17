@@ -331,6 +331,9 @@ h2 {
   .card-right,
   .card-left {
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .container {
     width: 90%;
