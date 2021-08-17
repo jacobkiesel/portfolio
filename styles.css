@@ -318,6 +318,13 @@ h2 {
     display: inline;
   }
 
+  #projects {
+    display: block;
+  }
+  #projects h2 {
+    margin-left: 20px;
+  }
+
   #projects img {
     display: none;
   }
