@@ -62,16 +62,14 @@ i {
     transform: translateX(0);
   }
 }
-.hidden {
-  display: none;
-}
+
 .animate {
   animation-name: slidein-right;
-  animation-duration: 0.5s;
+  animation-duration: 1.5s;
 }
 .animate-left {
   animation-name: slidein-left;
-  animation-duration: 0.5s;
+  animation-duration: 1.5s;
 }
 
 .code-color {
