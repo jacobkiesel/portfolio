@@ -307,7 +307,19 @@ h2 {
   border: none;
   text-shadow: 1px 1px 5px #000;
 }
+@supports (padding: max(0px)) {
+  body,
+  header,
+  footer {
+    padding-left: min(0vmin, env(safe-area-inset-left));
+    padding-right: min(0vmin, env(safe-area-inset-right));
+  }
+}
 @media only screen and (max-width: 850px) {
+  .animate,
+  .animate-left {
+    animation-name: none;
+  }
   * {
     font-size: 1em;
   }
@@ -411,6 +423,10 @@ h2 {
 }
 
 @media only screen and (max-width: 850px) and (orientation: landscape) {
+  .animate,
+  .animate-left {
+    animation-name: none;
+  }
   #projects {
     display: flex;
   }
