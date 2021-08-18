@@ -410,10 +410,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 850px) {
-  body {
-    width: 100vw;
-  }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
   #projects {
     display: flex;
   }
