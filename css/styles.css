@@ -420,12 +420,6 @@ h2 {
   .animate-left {
     animation-name: none;
   }
-  body {
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.685),
-      rgba(0, 0, 0, 0.76)
-    );
-  }
   #projects {
     display: flex;
   }
