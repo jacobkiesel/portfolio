@@ -409,3 +409,37 @@ h2 {
     width: 80%;
   }
 }
+
+@media only screen and (max-width: 850px) {
+  body {
+    width: 100vw;
+  }
+  #projects {
+    display: flex;
+  }
+  .info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .info h2 {
+    margin-right: 40px;
+  }
+
+  #projects .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+  }
+  .card-description {
+    width: 500px;
+    height: 250px;
+  }
+  .card-left,
+  .card-right {
+    width: 70%;
+    height: 70%;
+  }
+}
