@@ -449,3 +449,8 @@ h2 {
     height: 70%;
   }
 }
+/* @media only screen and (min-width: 1440px) {
+  html {
+    width: 1440px;
+  }
+} */
