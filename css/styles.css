@@ -174,7 +174,7 @@ section {
   color: white;
 }
 #about .container {
-  width: 20%;
+  width: 420px;
 }
 #about p {
   background-color: rgba(128, 128, 128, 0.521);
@@ -427,6 +427,7 @@ h2 {
 
   #about .container {
     width: 80%;
+    font-size: larger;
   }
 }
 
