@@ -174,7 +174,7 @@ section {
   color: white;
 }
 #about .container {
-  width: 40%;
+  width: 20%;
 }
 #about p {
   background-color: rgba(128, 128, 128, 0.521);
@@ -340,7 +340,9 @@ h2 {
   #projects h2 {
     margin-left: 20px;
   }
-
+  #projects h3 {
+    font-size: larger;
+  }
   #projects img {
     display: none;
   }
@@ -378,6 +380,7 @@ h2 {
   }
   .card-description p {
     background-color: transparent;
+    font-size: larger;
   }
   .pj1 {
     background-image: linear-gradient(
@@ -392,7 +395,19 @@ h2 {
     width: 50vh;
     height: 50vh;
   }
-  .pj2,
+  .pj2 {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.767),
+        rgba(0, 0, 0, 0.822)
+      ),
+      url(../imgs/pj2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50vh;
+    height: 50vh;
+  }
   .pj3 {
     background-image: linear-gradient(
         to bottom,
@@ -449,8 +464,3 @@ h2 {
     height: 70%;
   }
 }
-/* @media only screen and (min-width: 1440px) {
-  html {
-    width: 1440px;
-  }
-} */
